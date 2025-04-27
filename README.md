@@ -23,7 +23,7 @@ A secure document management system built with ASP.NET Core that allows users to
 ## Technology Stack
 
 - **Backend**: ASP.NET Core (.NET 6)
-- **Database**: SQLite
+- **Database**: Postgresql
 - **Authentication**: JWT (JSON Web Tokens)
 - **Architecture**: Layered architecture with SOLID principles
 
@@ -38,17 +38,15 @@ A secure document management system built with ASP.NET Core that allows users to
 
 ### Prerequisites
 
-- .NET 6 SDK or later
-- Visual Studio 2022, VS Code, or your preferred IDE
+- .NET 8 SDK 
+- Postgresql
 
 ### Steps to Run
 
 1. Clone the repository
    ```
-   git clone https://github.com/yourusername/document-management-system.git
-   cd document-management-system
+   git clone https://github.com/DavidSamir/dms-backend
+   cd dms-backend
    ```
 
 2. Install required NuGet packages
-dotnet ef migrations add InitialCreate --project DMS.Infrastructure --startup-project DMS.API
-dotnet ef database update --project DMS.Infrastructure --startup-project DMS.API

@@ -1,0 +1,14 @@
+{
+    "profiles": {
+        "DMS.API": {
+            "commandName": "Project",
+            "dotnetRunMessages": true,
+            "launchBrowser": true,
+            "applicationUrl": "http://localhost:5000;https://localhost:5001",
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "DOTNET_WATCH_SUPPRESS_BROWSER_REFRESH": "true"
+            }
+        }
+    }
+}
